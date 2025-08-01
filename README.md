@@ -31,6 +31,10 @@ This project demonstrates how to control two turtles in the turtlesim simulator 
    ```
 ## 📸 Screenshot
 
+Below is the result of the turtle movements:
+
+![Screenshot](tt.png)
+
 ## 🐍 Python Scripts
 **circle_turtle1.py**
 This script controls turtle1 to move in a circular path by setting a constant linear velocity and a fixed angular velocity.
