@@ -20,26 +20,19 @@ This project demonstrates how to control two turtles in the turtlesim simulator 
    ros2 run turtlesim turtlesim_node
    ```
 2.Spawn a second turtle:
-```bash
-ros2 service call /spawn turtlesim/srv/Spawn "{x: 8.0, y: 5.0, theta: 0.0, name: 'turtle2'}"
-Run the movement scripts:
-```
+ ```bash
+ ros2 service call /spawn turtlesim/srv/Spawn "{x: 8.0, y: 5.0, theta: 0.0, name: 'turtle2'}"
+ ```
 3.Run the movement scripts:
-```bash
-python3 circle_turtle1.py
-python3 spiral_turtle2.py
+ ```bash
+ python3 circle_turtle1.py
+ python3 spiral_turtle2.py
 ```
 ## 📸 Screenshot
 
 ## 🐍 Python Scripts
 **circle_turtle1.py**
 This script controls turtle1 to move in a circular path by setting a constant linear velocity and a fixed angular velocity.
+
 **spiral_turtle2.py**
 This script controls turtle2 to move in a spiral shape by gradually increasing its linear velocity while keeping a steady angular velocity.
-
-
-
-
-تحرير
-python3 circle_turtle1.py
-python3 spiral_turtle2.py
