@@ -13,7 +13,7 @@ class SpiralTurtle(Node):
         msg = Twist()
         msg.linear.x = self.linear_speed
         msg.angular.z = 1.5
-        self.linear_speed += 0.01  # كل مرة تزداد السرعة فيصير لولبي
+        self.linear_speed += 0.01  
         self.publisher.publish(msg)
 
 def main(args=None):
