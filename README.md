@@ -19,15 +19,16 @@ This project demonstrates how to control two turtles in the turtlesim simulator 
    ```bash
    ros2 run turtlesim turtlesim_node
    ```
-2.Spawn a second turtle:
- ```bash
- ros2 service call /spawn turtlesim/srv/Spawn "{x: 8.0, y: 5.0, theta: 0.0, name: 'turtle2'}"
- ```
-3.Run the movement scripts:
- ```bash
- python3 circle_turtle1.py
- python3 spiral_turtle2.py
-```
+ 2. Spawn a second turtle:
+
+    ```bash
+    ros2 service call /spawn turtlesim/srv/Spawn "{x: 8.0, y: 5.0, theta: 0.0, name: 'turtle2'}"
+    ```
+3. Run the movement scripts:
+   ```bash
+   python3 circle_turtle1.py
+   python3 spiral_turtle2.py
+   ```
 ## 📸 Screenshot
 
 ## 🐍 Python Scripts
