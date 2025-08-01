@@ -7,7 +7,7 @@ This project demonstrates how to control two turtles in the turtlesim simulator 
 
 ## 🛠 Requirements
 
-- Ubuntu 20.04  
+- Ubuntu 22.04  
 - ROS 2 Humble
 - turtlesim package  
 - Python 3
